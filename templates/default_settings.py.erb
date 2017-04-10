@@ -1,0 +1,26 @@
+PUPPETDB_HOST = '<%= @puppetdb_host %>'
+PUPPETDB_PORT = <%= @puppetdb_port %>
+PUPPETDB_SSL_VERIFY = <%= @puppetdb_ssl %>
+PUPPETDB_KEY = <%= @puppetdb_key %>
+PUPPETDB_CERT = <%= @puppetdb_cert %>
+PUPPETDB_TIMEOUT = <%= @puppetdb_timeout %>
+DEV_LISTEN_HOST = '<%= @dev_listen_host %>'
+DEV_LISTEN_PORT = <%= @dev_listen_port %>
+UNRESPONSIVE_HOURS = <%= @unresponsive %>
+ENABLE_QUERY = <%= @enable_query %>
+LOGLEVEL = '<%= @python_loglevel %>'
+PUPPETDB_EXPERIMENTAL = <%= @experimental %>
+LOCALISE_TIMESTAMP = True
+REPORTS_COUNT = 10
+OFFLINE_MODE = False
+GRAPH_FACTS = ['architecture',
+               'domain',
+               'lsbcodename',
+               'lsbdistcodename',
+               'lsbdistid',
+               'lsbdistrelease',
+               'lsbmajdistrelease',
+               'netmask',
+               'osfamily',
+               'puppetversion',
+               'processorcount']
